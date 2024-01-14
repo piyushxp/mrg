@@ -27,12 +27,18 @@
     <style>
       body {
           text-align:center;
+          margin: 0;
       } 
-      img {
-          width:60%;
-          height:80%;
-          object-fit: cover;
-      }
+      
+
+      /* Add this CSS inside your <style> tag or external stylesheet */
+img {
+    max-width: 100%; /* Make sure the image doesn't exceed its original size */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any default inline styles that may affect responsiveness */
+    margin: 0 auto; /* Center the image horizontally within its container */
+    object-fit: cover;
+}
   </style> 
     <title>#Piksha</title>
   </head>
